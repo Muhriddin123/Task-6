@@ -9,11 +9,11 @@ import web.model.User;
 
 import java.util.List;
 @Service
-public class ServiceUserImp implements ServiceUser {
+public class UserServiceImp implements UserService {
 
     private final DaoUser daoUser;
     @Autowired
-    public ServiceUserImp(DaoUser daoCar) {
+    public UserServiceImp(DaoUser daoCar) {
         this.daoUser = daoCar;
     }
 
